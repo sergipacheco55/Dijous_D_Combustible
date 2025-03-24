@@ -1,4 +1,4 @@
-# ER COMBUSTIBLE
+# EL COMBUSTIBLE
 
 ## Autors
 - Raúl Carod (RaulCarod)
@@ -14,11 +14,14 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 ## Diagrama de blocs (Afegiu una imatge del diagrama de blocs)
 ![Diagrama de bloques](Diagrama%20de%20bloques%20final.png)
 
-
 ## Taula de components
-| Descripció | Manufacturer Number | Package | Datasheet | Proveïdor | Unitats |
-|------------|--------------------|---------|----------|----------|---------|
-| Exemple | XYZ1234 | SOT-23 | [Enllaç](https://...) | DigiKey | 2 |
+| Descripció                 | Manufacturer Number | Package  | Datasheet | Proveïdor | Unitats |
+|----------------------------|--------------------|---------|----------|----------|---------|
+| Regulador de tensió        | LM1117            | SOT-223 | [Enllaç](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | DigiKey / Mouser | X |
+| Transceptor CAN            | MCP2551           | SOIC-8  | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/mcp2551.pdf) | DigiKey / Mouser | X |
+| Microcontrolador           | PIC18FXX8         | DIP / QFP | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/39564c.pdf) | DigiKey / Mouser | X |
+| Cristall de quars          | HC-49-US          | HC-49/US | [Exemple](https://www.txccrystal.com/images/pdf/HC-49US.pdf) | DigiKey / Mouser | X |
+
 
 ## Funcionalitats
 - [ ] Funció 1
