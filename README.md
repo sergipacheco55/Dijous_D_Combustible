@@ -12,6 +12,8 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 - Llista de requisits tècnics i objectius a assolir.
 
 ## Diagrama de blocs (Afegiu una imatge del diagrama de blocs)
+![Diagrama de bloques](Diagrama%20de%20bloques%20final.png)
+
 
 ## Taula de components
 | Descripció | Manufacturer Number | Package | Datasheet | Proveïdor | Unitats |
@@ -24,4 +26,6 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 - [ ] Funció 3
 
 ## Historial de canvis | Data | Autor | Branch | Descripció |
-|------|------|--------|------------| | 2025-03-14 | Nom | `main` | Creació del projecte |
+|------|------|--------|------------| 
+| 2025-03-20 | Sergi Pacheco | `main` | Creació del projecte |
+| 2025-03-24 | Raúl Carod| `main` | Diagrama de blocs |
