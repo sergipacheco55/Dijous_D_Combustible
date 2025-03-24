@@ -11,7 +11,7 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 ## Requisits i especificacions
 - Llista de requisits tècnics i objectius a assolir.
 
-## Diagrama de blocs (Afegiu una imatge del diagrama de blocs)
+## Diagrama de blocs
 ![Diagrama de bloques](Diagrama%20de%20bloques%20final.png)
 
 ## Taula de components
