@@ -30,7 +30,8 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 - [ ] Funció 2
 - [ ] Funció 3
 
-## Historial de canvis | Data | Autor | Branch | Descripció |
+## Historial de canvis
+| Data | Autor | Branch | Descripció |
 |------|------|--------|------------| 
 | 2025-03-20 | Sergi Pacheco | `main` | Creació del projecte |
 | 2025-03-24 | Raúl Carod| `main` | Diagrama de blocs |
