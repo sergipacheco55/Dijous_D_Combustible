@@ -20,7 +20,7 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Regulador de tensió        | LM1117            | SOT-223 | [Enllaç](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | DigiKey / Mouser | X |
 | Transceptor CAN            | MCP2551           | SOIC-8  | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/mcp2551.pdf) | DigiKey / Mouser | X |
 | Microcontrolador           | PIC18FXX8         | DIP / QFP | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/39564c.pdf) | DigiKey / Mouser | X |
-| Cristall de quars          | HC-49-US          | HC-49/US | [Exemple](https://www.txccrystal.com/images/pdf/HC-49US.pdf) | DigiKey / Mouser | X |
+| Cristall de quars          | HC-49-US          | HC-49/US | [Enllaç]([https://www.txccrystal.com/images/pdf/HC-49US.pdf](https://www.vishay.com/doc?35012)) | DigiKey / Mouser | X |
 
 
 ## Funcionalitats
