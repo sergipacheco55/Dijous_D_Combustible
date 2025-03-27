@@ -7101,28 +7101,6 @@
 			)
 		)
 	)
-	(global_label "LED_pneumatics"
-		(shape output)
-		(at 262.89 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15455740-2b74-455f-8f6b-65ae8d8e5bdb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.115 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 252.73 50.8 180)
@@ -7185,6 +7163,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_Dipòsit"
+		(shape output)
+		(at 262.89 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c8a603d-382f-42b8-be80-a39e515a99dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6442 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
