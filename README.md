@@ -24,6 +24,9 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Microcontrolador           | PIC18FXX8         | SOIC 28 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/39564c.pdf) | DigiKey / Mouser | 1 |
 | Cristall de quars          | HC-49-US          | HC-49-SD | [Enllaç](https://www.txccrystal.com/images/pdf/HC-49US.pdf(https://www.vishay.com/doc?35012)(http://www.farnell.com/datasheets/2865821.pdf?_gl=1*v4ff3h*_gcl_aw*R0NMLjE3NDI0ODU5NjIuQ2owS0NRanctZTYtQmhEbUFSSXNBT3h4bHhWZlNMcTM3SjJ2RGlHTXF6emE0NWNTazRvZHItTmtBTVF5VWFaNVR2Z1Y0eHBud2hpeTZiVWFBbk54RUFMd193Y0I.*_gcl_au*MTQ0MDQ3ODg5NS4xNzQyNDA2NDAy)) | DigiKey / Mouser | 1 |
 | Convertidor DAC            | MCP4725           | SOT-23-6 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf) | DigiKey / Mouser | 1 |
+| Transistor de control | 2SC4213 | SMD:SOT-323 | [Enllaç](https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213) | Toshiba | 2 |
+| Relé | Fujitsu_FTR-LYAA005x | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Fujitsu | 2 |
+
 
 
 ## Funcionalitats
