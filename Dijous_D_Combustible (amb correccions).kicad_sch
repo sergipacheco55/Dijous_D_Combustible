@@ -1532,169 +1532,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -2126,6 +1963,168 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N5408"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5408"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5408_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5408_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4390,7 +4389,7 @@
 		)
 	)
 	(junction
-		(at 340.36 106.68)
+		(at 327.66 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "045e1218-5bb3-4d0f-bb07-4a086eaea896")
@@ -4408,13 +4407,13 @@
 		(uuid "12ec0657-ea8c-44fe-b1ae-dcd620f701d6")
 	)
 	(junction
-		(at 340.36 87.63)
+		(at 327.66 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21109a9b-545b-4392-8db0-bdacc01c398b")
 	)
 	(junction
-		(at 332.74 87.63)
+		(at 320.04 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "233a93cf-3dbf-494f-954a-fab4d9463a9b")
@@ -4444,6 +4443,18 @@
 		(uuid "4feb8ec3-35f7-42bf-86a5-2bfe10afbb58")
 	)
 	(junction
+		(at 373.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54cf43c2-0ed8-402c-bcc6-0f4b8e0a2b9d")
+	)
+	(junction
+		(at 353.06 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be3e78a-8b94-4216-b4a7-399779a15cca")
+	)
+	(junction
 		(at 193.04 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4468,22 +4479,16 @@
 		(uuid "5fb96080-219a-4138-9f45-14a7b7577b5d")
 	)
 	(junction
+		(at 361.95 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61740500-32a3-4520-9891-35e3732c6b08")
+	)
+	(junction
 		(at 57.15 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "651affae-6892-49e7-b125-879845ce841f")
-	)
-	(junction
-		(at 180.34 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "691ed496-f801-4710-90d7-990fca22c534")
-	)
-	(junction
-		(at 193.04 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72f03d8b-7e9c-4be4-9c32-bf79d70fb0a1")
 	)
 	(junction
 		(at 77.47 176.53)
@@ -4492,7 +4497,7 @@
 		(uuid "7a84c698-ee7c-4475-aa59-b3bfde9808aa")
 	)
 	(junction
-		(at 353.06 106.68)
+		(at 340.36 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c2c45fb-2157-48c8-b35c-43dfb684e049")
@@ -4534,16 +4539,10 @@
 		(uuid "a6cf5971-c23d-4560-b3a6-543efe2a115d")
 	)
 	(junction
-		(at 335.28 113.03)
+		(at 322.58 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adafe574-1504-4461-b712-180051b52d75")
-	)
-	(junction
-		(at 193.04 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb30b9bc-3b78-4eb4-a74a-77c1e26a4e68")
 	)
 	(junction
 		(at 77.47 167.64)
@@ -4586,6 +4585,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecfad4d4-e67a-423d-863f-8d85d5d42d62")
+	)
+	(junction
+		(at 382.27 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5db0e6f-7bbc-449c-807a-9444768c7b63")
 	)
 	(junction
 		(at 267.97 138.43)
@@ -4677,13 +4682,33 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 50.8) (xy 201.93 50.8)
+			(xy 187.96 50.8) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08513c36-c829-48f3-a034-257c7a2e3ec4")
+	)
+	(wire
+		(pts
+			(xy 353.06 91.44) (xy 365.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086f0f1e-95cc-4079-b8f8-2cd91b88dd2d")
+	)
+	(wire
+		(pts
+			(xy 353.06 87.63) (xy 373.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0897d4b1-0278-46ac-afdb-3ea1b4f69d74")
 	)
 	(wire
 		(pts
@@ -4757,7 +4782,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 90.17) (xy 365.76 87.63)
+			(xy 353.06 90.17) (xy 353.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +4822,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 124.46) (xy 335.28 125.73)
+			(xy 322.58 124.46) (xy 322.58 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4817,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 90.17) (xy 353.06 87.63)
+			(xy 340.36 90.17) (xy 340.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 38.1) (xy 365.76 38.1)
+			(xy 361.95 33.02) (xy 382.27 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 113.03) (xy 335.28 113.03)
+			(xy 321.31 113.03) (xy 322.58 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 106.68) (xy 353.06 106.68)
+			(xy 327.66 106.68) (xy 340.36 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5257,23 +5282,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 58.42) (xy 193.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5585345c-724d-4679-b999-84b61626906c")
-	)
-	(wire
-		(pts
-			(xy 353.06 118.11) (xy 353.06 124.46)
+			(xy 340.36 118.11) (xy 340.36 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59d66598-2c8f-418d-8d97-cb746bd04038")
+	)
+	(wire
+		(pts
+			(xy 382.27 33.02) (xy 391.16 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a283819-5be4-4ab3-aeaf-3351e4056e4d")
 	)
 	(wire
 		(pts
@@ -5307,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 97.79) (xy 332.74 99.06)
+			(xy 320.04 97.79) (xy 320.04 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +5392,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 90.17) (xy 332.74 87.63)
+			(xy 320.04 90.17) (xy 320.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 100.33) (xy 340.36 106.68)
+			(xy 327.66 100.33) (xy 327.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5467,6 +5492,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 91.44) (xy 353.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780a28ff-b027-49d1-857d-ba6c1881fe98")
+	)
+	(wire
+		(pts
 			(xy 330.2 62.23) (xy 331.47 62.23)
 		)
 		(stroke
@@ -5474,16 +5509,6 @@
 			(type default)
 		)
 		(uuid "78b011f0-aea5-45e5-8ccd-71afd17ed6bf")
-	)
-	(wire
-		(pts
-			(xy 373.38 87.63) (xy 375.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c3cdee-2408-4a64-af63-0152dad6a9aa")
 	)
 	(wire
 		(pts
@@ -5517,6 +5542,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 38.1) (xy 382.27 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7ad3af-7a58-40ae-9019-5dfc1b26aaa9")
+	)
+	(wire
+		(pts
 			(xy 331.47 62.23) (xy 332.74 62.23)
 		)
 		(stroke
@@ -5537,6 +5572,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 38.1) (xy 372.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e58e7b1-c603-4ecd-a485-56dfb2796a69")
+	)
+	(wire
+		(pts
 			(xy 151.13 101.6) (xy 171.45 101.6)
 		)
 		(stroke
@@ -5554,16 +5599,6 @@
 			(type default)
 		)
 		(uuid "817b5e26-c0a2-4bfd-80ac-adc71ec4854b")
-	)
-	(wire
-		(pts
-			(xy 193.04 62.23) (xy 180.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86bd3901-936f-48a9-80f7-94e4f0760c56")
 	)
 	(wire
 		(pts
@@ -5597,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 87.63) (xy 340.36 92.71)
+			(xy 327.66 87.63) (xy 327.66 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 113.03) (xy 336.55 113.03)
+			(xy 322.58 113.03) (xy 323.85 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5737,7 +5772,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 87.63) (xy 353.06 87.63)
+			(xy 327.66 87.63) (xy 340.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5767,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 106.68) (xy 353.06 107.95)
+			(xy 340.36 106.68) (xy 340.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5777,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 87.63) (xy 340.36 87.63)
+			(xy 320.04 87.63) (xy 327.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5827,7 +5862,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 87.63) (xy 332.74 87.63)
+			(xy 303.53 87.63) (xy 320.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5844,6 +5879,16 @@
 			(type default)
 		)
 		(uuid "abfb595e-d337-4418-a539-2a2148133fb5")
+	)
+	(wire
+		(pts
+			(xy 382.27 38.1) (xy 382.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada0e18c-1ba7-4d4c-87fb-d0b04e8f1343")
 	)
 	(wire
 		(pts
@@ -6037,7 +6082,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 106.68) (xy 340.36 106.68)
+			(xy 320.04 106.68) (xy 327.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6054,6 +6099,16 @@
 			(type default)
 		)
 		(uuid "bd9fbbeb-9cfd-448a-aece-0470e5a01405")
+	)
+	(wire
+		(pts
+			(xy 373.38 87.63) (xy 381 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1cb244-eb87-4b4c-a1d4-e9c321499733")
 	)
 	(wire
 		(pts
@@ -6087,7 +6142,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 105.41) (xy 353.06 106.68)
+			(xy 340.36 105.41) (xy 340.36 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6144,16 +6199,6 @@
 			(type default)
 		)
 		(uuid "cb0dffa3-0f41-43ca-b5e8-2443604abc66")
-	)
-	(wire
-		(pts
-			(xy 180.34 62.23) (xy 180.34 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb32df8c-1dd6-4c4c-b918-599f4979a15e")
 	)
 	(wire
 		(pts
@@ -6337,6 +6382,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 87.63) (xy 373.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32b98ff-170f-4359-be14-7c475e6037c8")
+	)
+	(wire
+		(pts
 			(xy 252.73 50.8) (xy 262.89 50.8)
 		)
 		(stroke
@@ -6437,7 +6492,17 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 113.03) (xy 345.44 113.03)
+			(xy 361.95 38.1) (xy 361.95 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0312e8a-be28-4f52-be85-b4a6553c234f")
+	)
+	(wire
+		(pts
+			(xy 331.47 113.03) (xy 332.74 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 113.03) (xy 335.28 116.84)
+			(xy 322.58 113.03) (xy 322.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6547,16 +6612,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 193.04 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5cd687-0f2c-418a-ad86-ed537f8ba543")
-	)
-	(wire
-		(pts
 			(xy 77.47 158.75) (xy 100.33 158.75)
 		)
 		(stroke
@@ -6574,6 +6629,16 @@
 			(type default)
 		)
 		(uuid "fcfae86d-7da4-4291-8937-548219fd7099")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6315aa-e69d-4ee6-b518-dfafd6b9a0ed")
 	)
 	(wire
 		(pts
@@ -6699,7 +6764,7 @@
 	)
 	(text "RELAY STATUS LED\n\n"
 		(exclude_from_sim no)
-		(at 332.994 101.092 0)
+		(at 320.294 101.092 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -6719,7 +6784,7 @@
 	)
 	(text "Relè Bomba de Combustible\n"
 		(exclude_from_sim no)
-		(at 344.424 82.804 0)
+		(at 331.724 82.804 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6933,7 +6998,7 @@
 	)
 	(global_label "Bomba de combustible"
 		(shape output)
-		(at 375.92 87.63 0)
+		(at 381 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6943,7 +7008,7 @@
 		)
 		(uuid "0352d132-66da-4ac0-8e4f-838d2a404412")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 400.9786 87.63 0)
+			(at 406.0586 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +7108,7 @@
 	)
 	(global_label "Vbat"
 		(shape input)
-		(at 316.23 87.63 180)
+		(at 303.53 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7053,7 +7118,7 @@
 		)
 		(uuid "3157183d-e3b7-45e8-8c78-c4aa754bcc50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.1325 87.63 0)
+			(at 296.4325 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7152,7 @@
 	)
 	(global_label "R_Bomba"
 		(shape input)
-		(at 334.01 113.03 180)
+		(at 321.31 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7097,7 +7162,7 @@
 		)
 		(uuid "3fb09b35-741e-4d4d-afa1-6823266b4ba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.3769 113.03 0)
+			(at 309.6769 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7394,7 @@
 	)
 	(global_label "Solenoide"
 		(shape output)
-		(at 365.76 38.1 0)
+		(at 391.16 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7339,7 +7404,7 @@
 		)
 		(uuid "6b719884-e444-4e4f-906c-9a183ae94bf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.9979 38.1 0)
+			(at 403.3979 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7794,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 340.36 113.03 90)
+		(at 327.66 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7737,7 +7802,7 @@
 		(dnp no)
 		(uuid "05aa1270-70e7-481d-9837-6810a9ff5416")
 		(property "Reference" "R16"
-			(at 340.36 108.712 90)
+			(at 327.66 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7810,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 340.36 110.744 90)
+			(at 327.66 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 114.808 90)
+			(at 327.66 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 340.36 113.03 0)
+			(at 327.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +7836,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 340.36 113.03 0)
+			(at 327.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,6 +7854,92 @@
 			(project "Dijous_D_Combustible (1)"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5408")
+		(at 369.57 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "063973ff-26d6-44b4-bba3-77ada5c79489")
+		(property "Reference" "D3"
+			(at 369.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 369.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 369.57 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 369.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 369.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 369.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 369.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c639a97-3baa-4c3d-a1ba-09e14312e1df")
+		)
+		(pin "2"
+			(uuid "2d196c70-0445-4567-8d09-2f66ecfc221b")
+		)
+		(instances
+			(project ""
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7866,94 +8017,6 @@
 			(project "Dijous_D_Combustible (1)"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 340.36 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0844bc60-71f9-429e-9e1b-b1872a3b33d0")
-		(property "Reference" "D7"
-			(at 342.9 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 342.9 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 340.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 340.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 340.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87dc1ecc-b4ef-460a-a3ed-33e4cf1a2951")
-		)
-		(pin "2"
-			(uuid "faa507f7-9a2c-4935-8eb1-95218ad8888f")
-		)
-		(instances
-			(project "Dijous_D_Combustible (1)"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 125.73 0)
+		(at 322.58 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8310,7 +8373,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e95b750-c1cb-451a-a0f9-9aa8c8180131")
 		(property "Reference" "#PWR030"
-			(at 335.28 132.08 0)
+			(at 322.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 130.81 0)
+			(at 322.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +8390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 125.73 0)
+			(at 322.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,7 +8399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 125.73 0)
+			(at 322.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 125.73 0)
+			(at 322.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,17 +8849,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 180.34 66.04 0)
+		(lib_id "Diode:1N5408")
+		(at 327.66 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "238e0194-54c3-4689-9af0-402ce3162ac8")
-		(property "Reference" "C8"
-			(at 184.15 64.7699 0)
+		(uuid "20db7f10-37d1-4f93-838b-11b9332917e4")
+		(property "Reference" "D7"
+			(at 330.2 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,8 +8867,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11u"
-			(at 184.15 67.3099 0)
+		(property "Value" "1N5408"
+			(at 330.2 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8813,8 +8876,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.3052 69.85 0)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 323.215 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,8 +8885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 180.34 66.04 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 327.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,8 +8894,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 180.34 66.04 0)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 327.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 327.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 327.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,85 +8922,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f100c53-252a-43de-91ea-1f175aed7711")
+			(uuid "d0577c66-babe-4e05-9ca0-851a63937d77")
 		)
 		(pin "2"
-			(uuid "fd9c05af-05fd-4743-b9a8-f3711ad32412")
+			(uuid "c8bd1539-eb55-4698-b135-83afb1decd20")
 		)
 		(instances
-			(project ""
+			(project "Dijous_D_Combustible (amb correccions)"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "240e83b4-7655-4251-a129-0bf9de40573f")
-		(property "Reference" "R8"
-			(at 195.58 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680"
-			(at 195.58 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.262 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b69fac6c-62b6-48ad-a9bb-306b327d56b0")
-		)
-		(pin "1"
-			(uuid "4ab62b71-635f-4ffd-8c5b-6c058d446918")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "R8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9282,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 363.22 105.41 0)
+		(at 350.52 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9279,7 +9290,7 @@
 		(dnp no)
 		(uuid "344a923e-c50b-4e05-8d32-fb305184b4ee")
 		(property "Reference" "#PWR032"
-			(at 363.22 110.49 0)
+			(at 350.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9299,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 363.22 109.22 0)
+			(at 350.52 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 106.68 0)
+			(at 350.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 106.68 0)
+			(at 350.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 363.22 105.41 0)
+			(at 350.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,76 +10030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 193.04 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b74f44b-0d7a-4c44-a127-80ddfccc40ff")
-		(property "Reference" "R7"
-			(at 195.58 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 195.58 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.262 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5515c7b2-e204-4b08-9a72-6d35803ae7c0")
-		)
-		(pin "1"
-			(uuid "6390233d-f1be-402b-ae2b-e673656e2664")
-		)
-		(instances
-			(project ""
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 57.15 142.24 0)
 		(unit 1)
@@ -10629,72 +10570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fa7dec7-ad35-4f99-9630-c0d0540fc2a5")
-		(property "Reference" "#PWR012"
-			(at 180.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2392f41a-9d1f-4543-8f7b-d0925160e750")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 54.61 0)
 		(unit 1)
@@ -10766,7 +10641,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 353.06 124.46 0)
+		(at 340.36 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10774,7 +10649,7 @@
 		(dnp no)
 		(uuid "85db8f01-a953-46c6-a9f1-f5ab44408071")
 		(property "Reference" "#PWR038"
-			(at 353.06 129.54 0)
+			(at 340.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10658,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 352.806 128.016 0)
+			(at 340.106 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 125.73 0)
+			(at 340.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +10675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 125.73 0)
+			(at 340.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +10684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 353.06 124.46 0)
+			(at 340.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,6 +11112,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5408")
+		(at 337.82 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f8d8b22-9314-437a-8378-43c85ecf3c1e")
+		(property "Reference" "D6"
+			(at 340.36 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 340.36 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 333.375 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 337.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 337.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 337.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 337.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc9e6e00-7264-4eb6-87b9-bf2f9fdb7d79")
+		)
+		(pin "2"
+			(uuid "bc2dbe8b-525c-4df0-a323-225a063e07e4")
+		)
+		(instances
+			(project "Dijous_D_Combustible (amb correccions)"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PIC18F258-I/SO:PIC18F258-I_SO")
 		(at 195.58 161.29 0)
 		(unit 2)
@@ -11388,7 +11351,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2SC4213")
-		(at 350.52 113.03 0)
+		(at 337.82 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11396,7 +11359,7 @@
 		(dnp no)
 		(uuid "932bc537-fec4-4ae0-9b95-33407b92c1b3")
 		(property "Reference" "Q2"
-			(at 350.52 117.602 90)
+			(at 337.82 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11367,7 @@
 			)
 		)
 		(property "Value" "2SC4213"
-			(at 348.234 118.618 90)
+			(at 335.534 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,7 +11375,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 355.6 114.935 0)
+			(at 342.9 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +11386,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213"
-			(at 350.52 113.03 0)
+			(at 337.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11396,7 @@
 			)
 		)
 		(property "Description" "0.3A Ic, 20V Vce, NPN Transistor, For Muting and Switching, SOT-323"
-			(at 350.52 113.03 0)
+			(at 337.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12064,91 +12027,6 @@
 			(project "Dijous_D_Combustible (1)"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 369.57 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1ab540b-1afd-4ec9-ac9b-9f352470d5fc")
-		(property "Reference" "D3"
-			(at 369.57 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 369.824 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 369.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 369.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 369.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 369.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b19775f-8dcf-4ab4-a164-8cd27802cfe0")
-		)
-		(pin "2"
-			(uuid "49e9732e-dd4f-4133-9f85-1d01c0549b54")
-		)
-		(instances
-			(project ""
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12792,16 +12670,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 69.85 0)
+		(at 180.34 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ccced7d6-64ab-450a-974a-3a1726ea487f")
-		(property "Reference" "#PWR011"
-			(at 193.04 76.2 0)
+		(uuid "cee122aa-e791-4f57-951d-7e63e52ec79b")
+		(property "Reference" "#PWR8"
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12810,7 +12688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 74.93 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +12696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 69.85 0)
+			(at 180.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +12705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 69.85 0)
+			(at 180.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12836,7 +12714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 69.85 0)
+			(at 180.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,12 +12723,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0138e383-1cb1-4d3e-bf14-83d68706a7f8")
+			(uuid "d9878099-777b-460e-a2ae-5dee5e4d9cc2")
 		)
 		(instances
-			(project "Dijous_D_Combustible"
+			(project "Dijous_D_Combustible (amb correccions)"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "#PWR011")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -12858,7 +12736,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 335.28 120.65 0)
+		(at 322.58 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12867,7 +12745,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfba170e-8baf-41ce-8b96-186eb2eea4d2")
 		(property "Reference" "R10"
-			(at 337.82 119.3799 0)
+			(at 325.12 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12876,7 +12754,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 337.82 121.9199 0)
+			(at 325.12 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12885,7 +12763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 333.502 120.65 90)
+			(at 320.802 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12894,7 +12772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 120.65 0)
+			(at 322.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12903,7 +12781,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 335.28 120.65 0)
+			(at 322.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,7 +12876,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 358.14 97.79 0)
+		(at 345.44 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13006,7 +12884,7 @@
 		(dnp no)
 		(uuid "dd45593a-1f9c-4516-bda7-1cde5e451d7e")
 		(property "Reference" "K2"
-			(at 369.57 96.5199 0)
+			(at 356.87 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,7 +12893,7 @@
 			)
 		)
 		(property "Value" "Fujitsu_FTR-LYAA005x"
-			(at 368.046 99.314 0)
+			(at 355.346 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13024,7 +12902,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 369.57 99.06 0)
+			(at 356.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13034,7 +12912,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 375.92 101.6 0)
+			(at 363.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13044,7 +12922,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 358.14 97.79 0)
+			(at 345.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,93 +13079,6 @@
 			(project ""
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 337.82 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1a4df73-bd33-4f33-b9fa-a7a0bf294433")
-		(property "Reference" "D6"
-			(at 339.598 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 340.106 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 337.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 337.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 337.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24726799-a7bf-4d11-81a3-31075a34240f")
-		)
-		(pin "2"
-			(uuid "821522b3-83f7-4e53-b662-26d3e5154978")
-		)
-		(instances
-			(project "Dijous_D_Combustible (1)"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13696,8 +13487,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5408")
+		(at 375.92 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9abf28e-1872-4f68-b7c5-116547a52a8d")
+		(property "Reference" "D9"
+			(at 375.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 375.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 375.92 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e106fe5-9e15-4cb1-bef1-56115869e422")
+		)
+		(pin "2"
+			(uuid "5f0e9e0c-f7db-4e1c-b2e2-efedd3aa5153")
+		)
+		(instances
+			(project "Dijous_D_Combustible (amb correccions)"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 332.74 102.87 90)
+		(at 320.04 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13705,7 +13582,7 @@
 		(dnp no)
 		(uuid "e9c46a67-d28a-4e50-8c9b-3b3f38254724")
 		(property "Reference" "D5"
-			(at 326.898 102.362 90)
+			(at 314.198 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,7 +13591,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 326.898 104.902 90)
+			(at 314.198 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13723,7 +13600,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 332.74 102.87 0)
+			(at 320.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +13609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 102.87 0)
+			(at 320.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13741,7 +13618,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 332.74 102.87 0)
+			(at 320.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14266,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 332.74 93.98 0)
+		(at 320.04 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14397,7 +14274,7 @@
 		(dnp no)
 		(uuid "ffe4bba6-d674-49c7-9de1-e7273feb286e")
 		(property "Reference" "R15"
-			(at 327.406 92.71 0)
+			(at 314.706 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14283,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 327.406 95.25 0)
+			(at 314.706 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14415,7 +14292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.962 93.98 90)
+			(at 318.262 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 93.98 0)
+			(at 320.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14433,7 +14310,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 332.74 93.98 0)
+			(at 320.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
