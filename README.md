@@ -28,7 +28,8 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Convertidor DAC            | MCP4725           | SOT-23-6 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf) | DigiKey / Mouser | 1 |
 | Transistor de control | 2SC4213 | SMD:SOT-323 | [Enllaç](https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213) | Toshiba | 2 |
 | Relé | Fujitsu_FTR-LYAA005x | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Fujitsu | 2 |
-| Diode protector | 1N5408 | DO-201AD | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Vishay | 
+| Díode protector | 1N5408 | DO-201AD | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Vishay | 4 |
+| Díode Zener | 1N5822 | DO-201AD | [Enllaç](http://www.vishay.com/docs/88526/1n5820.pdf) | Vishay | 1 |
 
 
 
@@ -49,4 +50,4 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | 2025-03-27 | Raúl Carod | `main`| Digrama de blocs+ Sortides esquematic actulaitzades |
 | 2025-03-27 | Raúl Carod | `main`| Digrama de blocs correcció |
 | 2025-03-31 | Sergi Pacheco | `main`| Correccions del esquemàtic |
-| 2025-03-31 | Raúl Carod | `main`| Més correción al esquemàtic |
+| 2025-03-31 | Raúl Carod | `main`| Més correción al esquemàtic + actulització llista materials|
