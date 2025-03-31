@@ -4732,16 +4732,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 45.72) (xy 83.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdfc718-77a4-4611-95df-ab41c01ec9ee")
-	)
-	(wire
-		(pts
 			(xy 316.23 46.99) (xy 316.23 48.26)
 		)
 		(stroke
@@ -6844,17 +6834,6 @@
 		)
 		(uuid "abbf355b-4258-413d-bf5a-3f9358d90be8")
 	)
-	(text "Condensador: "
-		(exclude_from_sim no)
-		(at 77.978 65.532 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://www.vishay.com/docs/28323/150rmi.pdf")
-		)
-		(uuid "ac137de6-312d-4ff6-996f-ae54f5d7605e")
-	)
 	(text "Conector botó apertura \nde combustible o tancament"
 		(exclude_from_sim no)
 		(at 37.084 56.896 0)
@@ -6904,17 +6883,6 @@
 			)
 		)
 		(uuid "dd123e4d-dbb3-4a68-8eea-78881c95491a")
-	)
-	(text "Condensador datasheet\n"
-		(exclude_from_sim no)
-		(at 153.416 68.326 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://eu.mouser.com/datasheet/2/293/e_ucz-1903374.pdf")
-		)
-		(uuid "e04c51f6-7ca2-4d71-bdaa-b0a8bc3ced1a")
 	)
 	(text "Els fabriants recomanen utilitzar tantalium capacitor"
 		(exclude_from_sim no)
@@ -7416,7 +7384,7 @@
 	)
 	(global_label "Vbat"
 		(shape input)
-		(at 80.01 45.72 180)
+		(at 71.12 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7426,7 +7394,7 @@
 		)
 		(uuid "796c44a2-0836-4d81-88d1-c4a9df010971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.9125 45.72 0)
+			(at 64.0225 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 327.66 114.808 90)
 			(effects
 				(font
@@ -8047,7 +8015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 336.55 64.008 90)
 			(effects
 				(font
@@ -8249,7 +8217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 75.692 163.83 90)
 			(effects
 				(font
@@ -8522,7 +8490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 266.192 125.73 90)
 			(effects
 				(font
@@ -8592,7 +8560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 316.992 179.07 90)
 			(effects
 				(font
@@ -9034,7 +9002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 329.692 68.58 90)
 			(effects
 				(font
@@ -9170,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 75.692 171.45 90)
 			(effects
 				(font
@@ -9575,7 +9543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 42.672 179.07 90)
 			(effects
 				(font
@@ -9743,73 +9711,6 @@
 			(project "Dijous_D_Combustible (amb correccions)"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 29.21 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b316b52-9225-4bd0-9cc5-4eadb2cf34a7")
-		(property "Reference" "J5"
-			(at 29.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 26.924 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81d42f9b-2ae9-406f-a385-16b385bdec12")
-		)
-		(pin "2"
-			(uuid "cbe39393-6006-43aa-b846-9848ea2427e1")
-		)
-		(instances
-			(project ""
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10458,7 +10359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 155.702 92.71 90)
 			(effects
 				(font
@@ -11450,7 +11351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 277.622 125.73 90)
 			(effects
 				(font
@@ -11649,7 +11550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical"
 			(at 33.02 71.12 0)
 			(effects
 				(font
@@ -11717,7 +11618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -11990,7 +11891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 314.452 43.18 90)
 			(effects
 				(font
@@ -12179,22 +12080,24 @@
 		(fields_autoplaced yes)
 		(uuid "b7bd67d9-4784-4c70-8343-cab96cefe547")
 		(property "Reference" "J2"
-			(at 129.54 181.61 0)
+			(at 134.62 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "DE9_Plug"
-			(at 129.54 179.07 0)
+			(at 134.62 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm"
 			(at 129.54 163.83 0)
 			(effects
 				(font
@@ -12548,7 +12451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 36.83 99.06 0)
 			(effects
 				(font
@@ -12762,7 +12665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 320.802 120.65 90)
 			(effects
 				(font
@@ -12832,7 +12735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 158.242 119.38 90)
 			(effects
 				(font
@@ -12952,6 +12855,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 29.21 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de2b403f-9235-47f8-a9f7-4757f05d75ea")
+		(property "Reference" "J3"
+			(at 29.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f394519-4b83-44e1-9478-497dffbcd8a5")
+		)
+		(pin "2"
+			(uuid "c5eefa17-c272-40cb-888d-d5d699dd68a8")
+		)
+		(instances
+			(project ""
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 279.4 121.92 0)
 		(unit 1)
@@ -13042,7 +13013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 102.87 32.512 90)
 			(effects
 				(font
@@ -13176,7 +13147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 328.422 40.64 90)
 			(effects
 				(font
@@ -13732,7 +13703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 82.55 19.812 90)
 			(effects
 				(font
@@ -14067,7 +14038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 121.92 36.068 90)
 			(effects
 				(font
@@ -14291,7 +14262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 318.262 93.98 90)
 			(effects
 				(font
