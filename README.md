@@ -30,6 +30,7 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Relé | Fujitsu_FTR-LYAA005x | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Mouse | 2 |
 | Díode protector | 1N5408 | DO-201AD | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Mouser | 4 |
 | Díode Zener | 1N5822 | DO-201AD | [Enllaç](http://www.vishay.com/docs/88526/1n5820.pdf) | Farnell España | 1 |
+| Díode de protecció en inversa | MBR340 | DO-201AD_P15.24mm | [Enllaç](http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF) | Mouser | 1 |
 
 
 
@@ -51,3 +52,4 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | 2025-03-27 | Raúl Carod | `main`| Digrama de blocs correcció |
 | 2025-03-31 | Sergi Pacheco | `main`| Correccions del esquemàtic |
 | 2025-03-31 | Raúl Carod | `main`| Més correción al esquemàtic + actulització llista materials|
+| 2025-04-01 | Raúl Carod | `main`| Correccions al esquemàtic + emprentas components |
