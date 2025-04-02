@@ -53,3 +53,6 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | 2025-03-31 | Sergi Pacheco | `main`| Correccions del esquemàtic |
 | 2025-03-31 | Raúl Carod | `main`| Més correción al esquemàtic + actulització llista materials|
 | 2025-04-01 | Raúl Carod | `main`| Correccions al esquemàtic + emprentas components |
+| 2025-04-01 | Raúl Carod | `main` | Layout |
+| 2025-04-01 | Sergi Pacheco | `main`| Seguiment amb el Layout |
+| 2025-04-01 | Raúl Carod | `main`|Layout acabat
