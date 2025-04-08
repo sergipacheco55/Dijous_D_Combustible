@@ -58,4 +58,4 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | 2025-04-01 | Raúl Carod | `main`|Layout acabat |
 | 2025-04-03 | Sergi Pacheco| `main`|  Canvis al esquemàtic, clock i iscp aprop micro|
 | 2025-04-03 | Raúl Carod | `main`| Algunes correccions del layout |
-| 2025-04-03 | Sergi Pacheco| `main`|  Augment tamany vies i amplada pistes|
+| 2025-04-08 | Sergi Pacheco| `main`|  Augment tamany vies i amplada pistes|
