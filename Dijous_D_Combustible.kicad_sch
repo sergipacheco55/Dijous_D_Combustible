@@ -973,22 +973,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1040,7 +1040,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -1086,8 +1097,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1097,7 +1119,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1115,7 +1137,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1133,7 +1155,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1151,7 +1173,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1161,6 +1183,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2176,168 +2234,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5408"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5408"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201AD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5408_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5408_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:1N5822"
 			(pin_numbers hide)
 			(pin_names
@@ -2483,10 +2379,9 @@
 				)
 			)
 		)
-		(symbol "Diode:MBR340"
+		(symbol "Diode:PMEG040V050EPD"
 			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2498,7 +2393,7 @@
 					)
 				)
 			)
-			(property "Value" "MBR340"
+			(property "Value" "PMEG040V050EPD"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2506,7 +2401,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(property "Footprint" "Package_TO_SOT_SMD:Nexperia_CFP15_SOT-1289"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2515,7 +2410,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG040V050EPD.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2524,7 +2419,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(property "Description" "40V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2533,7 +2428,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "forward voltage diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2542,7 +2437,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?201AD*"
+			(property "ki_fp_filters" "Nexperia*CFP15*SOT?1289*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2551,7 +2446,169 @@
 					(hide yes)
 				)
 			)
-			(symbol "MBR340_0_1"
+			(symbol "PMEG040V050EPD_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG040V050EPD_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54) hide
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:PMEG6030EP"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG6030EP"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-128"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?128*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG6030EP_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -2589,7 +2646,7 @@
 					)
 				)
 			)
-			(symbol "MBR340_1_1"
+			(symbol "PMEG6030EP_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5241,6 +5298,12 @@
 		(uuid "26a98b29-3180-45b6-8902-626b60cafc13")
 	)
 	(junction
+		(at 83.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "276ca057-852b-4cae-bbd1-966013a9ec1c")
+	)
+	(junction
 		(at 77.47 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5271,22 +5334,10 @@
 		(uuid "48c7a323-9f60-4866-9a88-79410a1041b9")
 	)
 	(junction
-		(at 83.82 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a8963a3-73c4-4999-977f-82961e4ce573")
-	)
-	(junction
 		(at 118.11 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b975afd-f73e-40f7-b2d4-007102f6368a")
-	)
-	(junction
-		(at 267.97 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cf804e8-07ca-4e0e-b46e-6d922596b16b")
 	)
 	(junction
 		(at 167.64 50.8)
@@ -5425,6 +5476,10 @@
 		(uuid "054be015-23d9-4a52-b8d5-7172bbfa24da")
 	)
 	(no_connect
+		(at 26.67 97.79)
+		(uuid "0ec79e81-9064-4691-83a5-925a7a909554")
+	)
+	(no_connect
 		(at 262.89 162.56)
 		(uuid "23d08000-0635-409b-8d47-db4cfaa0387c")
 	)
@@ -5455,6 +5510,10 @@
 	(no_connect
 		(at 171.45 154.94)
 		(uuid "76379cdf-b5d0-4418-a974-4d627250bb2f")
+	)
+	(no_connect
+		(at 26.67 107.95)
+		(uuid "8117c622-22be-4c91-ab05-830dad5cc624")
 	)
 	(no_connect
 		(at 121.92 163.83)
@@ -5658,6 +5717,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 22.86) (xy 105.41 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16766952-26f7-401f-8e85-9ad7fa09e05b")
+	)
+	(wire
+		(pts
 			(xy 154.94 142.24) (xy 160.02 142.24)
 		)
 		(stroke
@@ -5718,16 +5787,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 114.3) (xy 34.29 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de0ec05-1b46-4b78-936b-c3070b20a2a9")
-	)
-	(wire
-		(pts
 			(xy 87.63 104.14) (xy 87.63 116.84)
 		)
 		(stroke
@@ -5745,6 +5804,16 @@
 			(type default)
 		)
 		(uuid "1f5b835f-d640-41f9-925e-8872146c958a")
+	)
+	(wire
+		(pts
+			(xy 113.03 22.86) (xy 118.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9b1c3e-e657-4510-a37e-7108f0c08220")
 	)
 	(wire
 		(pts
@@ -5978,6 +6047,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 87.63) (xy 33.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361c0f84-7568-4465-8591-cb0f4e746713")
+	)
+	(wire
+		(pts
 			(xy 242.57 49.53) (xy 250.19 49.53)
 		)
 		(stroke
@@ -6108,16 +6187,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 107.95) (xy 34.29 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a530e8c-d005-4754-a1ba-7090a786d77a")
-	)
-	(wire
-		(pts
 			(xy 35.56 149.86) (xy 35.56 162.56)
 		)
 		(stroke
@@ -6155,6 +6224,16 @@
 			(type default)
 		)
 		(uuid "538c31ef-8e7e-45d5-911e-3c8f18d483a7")
+	)
+	(wire
+		(pts
+			(xy 26.67 105.41) (xy 33.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542e00d8-81c9-4eb2-92f0-8f024d8c7c09")
 	)
 	(wire
 		(pts
@@ -6315,16 +6394,6 @@
 			(type default)
 		)
 		(uuid "6c21868e-05d3-4491-9af3-8183afc02503")
-	)
-	(wire
-		(pts
-			(xy 34.29 96.52) (xy 34.29 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c51e7d6-826a-4b1a-ab3a-89b20233d2a1")
 	)
 	(wire
 		(pts
@@ -6528,6 +6597,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 100.33) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c38d4f-0ab7-4dcf-aae9-6a036d2f73e0")
+	)
+	(wire
+		(pts
 			(xy 69.85 176.53) (xy 77.47 176.53)
 		)
 		(stroke
@@ -6588,16 +6667,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 36.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cbf8e40-a317-459a-a5fd-61ada7e502e7")
-	)
-	(wire
-		(pts
 			(xy 77.47 160.02) (xy 77.47 158.75)
 		)
 		(stroke
@@ -6625,16 +6694,6 @@
 			(type default)
 		)
 		(uuid "90a142b0-0666-4bda-a154-4e895599b372")
-	)
-	(wire
-		(pts
-			(xy 38.1 101.6) (xy 36.83 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92015504-9d61-4cfe-9037-2a4bd0112a7e")
 	)
 	(wire
 		(pts
@@ -6788,16 +6847,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 105.41) (xy 34.29 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d58909-169a-4906-91e2-512130542a67")
-	)
-	(wire
-		(pts
 			(xy 195.58 196.85) (xy 187.96 196.85)
 		)
 		(stroke
@@ -6826,16 +6875,6 @@
 		)
 		(uuid "a314542c-be5d-4480-bc76-00d028a9637d")
 	)
-	(wire
-		(pts
-			(xy 262.89 177.8) (xy 267.97 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a379196b-005d-4a89-b5f7-ac22be9bf678")
-	)
 	(polyline
 		(pts
 			(xy 290.322 215.9) (xy 139.7 215.9)
@@ -6845,6 +6884,16 @@
 			(type default)
 		)
 		(uuid "a43b6b57-0bd4-4a17-90a5-54def6772b45")
+	)
+	(wire
+		(pts
+			(xy 33.02 110.49) (xy 33.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c9fe07-ecbc-4061-8a5b-98b90b9ff305")
 	)
 	(wire
 		(pts
@@ -6885,16 +6934,6 @@
 			(type default)
 		)
 		(uuid "a841d35b-df90-4426-a4bd-2c55bc342144")
-	)
-	(wire
-		(pts
-			(xy 267.97 177.8) (xy 267.97 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa42fcc0-405e-4ab3-a529-9a73546de032")
 	)
 	(wire
 		(pts
@@ -7028,7 +7067,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 177.8) (xy 276.86 177.8)
+			(xy 262.89 177.8) (xy 276.86 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7118,16 +7157,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 189.23) (xy 267.97 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c626b56c-82fe-4cd2-87fa-e1b4471e1ab7")
-	)
-	(wire
-		(pts
 			(xy 245.11 67.31) (xy 245.11 68.58)
 		)
 		(stroke
@@ -7198,16 +7227,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 22.86) (xy 118.11 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7f9096-3671-4416-b636-54c3d6221b39")
-	)
-	(wire
-		(pts
 			(xy 349.25 30.48) (xy 356.87 30.48)
 		)
 		(stroke
@@ -7215,6 +7234,16 @@
 			(type default)
 		)
 		(uuid "cc952404-52b4-47a0-b940-1cbd6c519822")
+	)
+	(wire
+		(pts
+			(xy 38.1 97.79) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3f6b19-f87f-48c2-9f8d-f6aa9f758550")
 	)
 	(wire
 		(pts
@@ -7315,6 +7344,16 @@
 			(type default)
 		)
 		(uuid "d5f94d85-947d-4102-ba6a-75ff7833c048")
+	)
+	(wire
+		(pts
+			(xy 26.67 102.87) (xy 41.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cc9866-f281-49f6-82ec-043d321a61d4")
 	)
 	(wire
 		(pts
@@ -7638,6 +7677,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 110.49) (xy 33.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf4a2c5-8e53-431c-8746-24c0873b87e0")
+	)
+	(wire
+		(pts
 			(xy 273.05 48.26) (xy 273.05 52.07)
 		)
 		(stroke
@@ -7738,9 +7787,9 @@
 		)
 		(uuid "485b823f-aa8a-4ed8-a711-ff13d2cd1d6c")
 	)
-	(text "Conector USART"
+	(text "Conector\nUSART"
 		(exclude_from_sim no)
-		(at 34.544 90.678 0)
+		(at 50.8 84.328 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8136,28 +8185,6 @@
 			)
 		)
 	)
-	(global_label "RXD"
-		(shape input)
-		(at 38.1 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d7628e4-40bd-4732-9bf7-2b0e20243219")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8347 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Retorn_dip"
 		(shape passive)
 		(at 349.25 52.07 180)
@@ -8413,28 +8440,6 @@
 		(uuid "593be71c-f45b-4f2e-9940-0683fcbb80a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 39.3105 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TXD"
-		(shape output)
-		(at 38.1 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b19c714-7da6-482c-9cd4-bf942961229b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.5323 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,6 +8775,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD"
+		(shape output)
+		(at 41.91 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9b994dd-370b-47ab-a441-353892633442")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.3423 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 38.1 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac90a79f-aaae-410d-955d-4850cf31d484")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.8347 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9290,33 +9339,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR340")
-		(at 80.01 45.72 180)
+		(lib_id "power:+5V")
+		(at 33.02 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08cd890a-1689-420b-b065-c8bc7d73b24b")
-		(property "Reference" "D1"
-			(at 80.3275 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR340"
-			(at 80.3275 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 80.01 41.275 0)
+		(uuid "0bf151a0-345b-40ba-b48d-507eb4fe2535")
+		(property "Reference" "#PWR47"
+			(at 33.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,8 +9357,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF"
-			(at 80.01 45.72 0)
+		(property "Value" "+5V"
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,8 +9374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 80.01 45.72 0)
+		(property "Datasheet" ""
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9342,16 +9383,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fa716723-de26-41a5-a323-af12972a0d7f")
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "36dda7fe-7779-4cf4-8151-f8be8974de6f")
+			(uuid "77d790f1-e49c-4ab9-a53d-4b2b9aba6924")
 		)
 		(instances
-			(project "Dijous_D_Combustible"
+			(project ""
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D1")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -9483,6 +9530,76 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "#PWR25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG6030EP")
+		(at 378.46 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "115fd07b-5a1a-47f6-99c4-60b94965a786")
+		(property "Reference" "D9"
+			(at 381 58.1024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG6030EP"
+			(at 381 60.6424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 374.015 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf"
+			(at 378.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128"
+			(at 378.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eb2570a-e788-46ec-a1e8-d85b11851cfe")
+		)
+		(pin "2"
+			(uuid "0de0fd2c-8a58-4c30-880d-b25987e3a44f")
+		)
+		(instances
+			(project "Dijous_D_Combustible"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -10386,76 +10503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 267.97 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28c49a29-b44e-4009-9d33-c3cfc15c25c2")
-		(property "Reference" "R20"
-			(at 270.51 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 270.51 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 266.192 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 267.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee6a1fec-4ba4-4b49-b721-4224b56f3467")
-		)
-		(pin "1"
-			(uuid "237609e8-01a1-4642-b741-404923bf9ee8")
-		)
-		(instances
-			(project ""
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 184.15 0)
 		(unit 1)
@@ -10730,94 +10777,6 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5408")
-		(at 356.87 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33d23335-296f-4b17-9327-b622db75455c")
-		(property "Reference" "D8"
-			(at 359.41 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 359.41 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 352.425 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 356.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 356.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 356.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 356.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af8af882-f2fa-46e3-856a-ef11fcc0408b")
-		)
-		(pin "2"
-			(uuid "d0aec2e3-9d13-407e-9322-4703ca11ad7c")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11506,72 +11465,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "512408ad-919f-4634-8e62-44d6cd38d8f2")
-		(property "Reference" "#PWR47"
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7247f342-10c8-49dc-9f62-534a68b27587")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "#PWR47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 160.02 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11972,6 +11865,76 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG6030EP")
+		(at 356.87 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "640f6c19-e89c-4fce-b910-594e3fd9959f")
+		(property "Reference" "D8"
+			(at 359.41 40.3224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG6030EP"
+			(at 359.41 42.8624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 352.425 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf"
+			(at 356.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128"
+			(at 356.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217beda8-9d17-4838-bc82-79ee3b6167b4")
+		)
+		(pin "2"
+			(uuid "215652bc-bfca-4f22-a5d6-351ff4d6223d")
+		)
+		(instances
+			(project "Dijous_D_Combustible"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12659,6 +12622,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PMEG040V050EPD")
+		(at 80.01 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b415c9c-9e4b-4152-9081-0619038d545d")
+		(property "Reference" "D1"
+			(at 80.3275 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG040V050EPD"
+			(at 80.3275 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Nexperia_CFP15_SOT-1289"
+			(at 80.01 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG040V050EPD.pdf"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "13e508f6-0e55-4e4e-aa16-e8203d62169c")
+		)
+		(pin "1"
+			(uuid "642b26d9-60a3-4491-b20e-ed0dc376320e")
+		)
+		(pin "2"
+			(uuid "92de6dc3-cbb5-4421-9748-3abd0309ac61")
+		)
+		(instances
+			(project "Dijous_D_Combustible"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 33.02 71.12 180)
 		(unit 1)
@@ -12787,91 +12821,6 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5408")
-		(at 273.05 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "847519a7-6875-4b73-a10b-df0d50b8e9b3")
-		(property "Reference" "D9"
-			(at 279.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 276.86 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 268.605 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 273.05 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 273.05 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 273.05 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 273.05 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5f35511-959d-4bb0-b400-4934817440e5")
-		)
-		(pin "2"
-			(uuid "ab883a8a-680e-4970-8ee1-f04d8615faf6")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13231,72 +13180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 34.29 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90e79e14-8151-4494-97fd-c6bb82103ed5")
-		(property "Reference" "#PWR46"
-			(at 34.29 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3413268-948d-4f02-a96f-fe36d3661d38")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "#PWR46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 349.25 45.72 90)
 		(unit 1)
@@ -13496,6 +13379,152 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "#PWR26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 21.59 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9366bdfb-b261-46b5-a631-a96f07884bcb")
+		(property "Reference" "J8"
+			(at 21.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 21.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 21.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "283cfb33-b575-48fb-b7fa-06fba036032d")
+		)
+		(pin "5"
+			(uuid "73479adc-6ad7-4611-906a-67145b9a0416")
+		)
+		(pin "1"
+			(uuid "0c49245d-1309-40e5-acd3-97c5103843d1")
+		)
+		(pin "2"
+			(uuid "5dec990e-2d56-423a-b523-d81335b020aa")
+		)
+		(pin "4"
+			(uuid "39ee494d-ea2f-4e09-bba5-e08baefadd93")
+		)
+		(pin "3"
+			(uuid "4c66fe40-d4c6-4611-ac0c-0c615cb57245")
+		)
+		(instances
+			(project ""
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 99.06 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94cd9a8f-8913-4362-9dc2-0dd8e49d3bca")
+		(property "Reference" "#PWR49"
+			(at 99.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 98.933 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 99.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27841d52-3645-4019-866e-627f6b7ab1fd")
+		)
+		(instances
+			(project ""
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
@@ -13971,72 +14000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 267.97 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2e16cfa-725d-4da1-8123-b127d0b18b19")
-		(property "Reference" "#PWR48"
-			(at 267.97 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74663b07-499f-46cb-b3a0-4c5f0d0dc044")
-		)
-		(instances
-			(project ""
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "#PWR48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM1117DT-5.0")
 		(at 180.34 50.8 0)
 		(unit 1)
@@ -14300,94 +14263,6 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5408")
-		(at 250.19 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae24d1a1-9d30-4b1b-9249-b746f6dc5b71")
-		(property "Reference" "D6"
-			(at 252.73 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 252.73 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 245.745 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 250.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 250.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 250.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 250.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8963b6df-39c9-4a34-b6d4-c933391df43d")
-		)
-		(pin "2"
-			(uuid "c3f074a1-6c86-429d-be8b-25f0cafe65d9")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14731,146 +14606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 99.06 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5307d45-adc0-4398-8977-a329956c34f4")
-		(property "Reference" "#PWR49"
-			(at 99.06 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ffbe336-9c5f-4796-8357-fe35ab5e283a")
-		)
-		(instances
-			(project ""
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "#PWR49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 29.21 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b93ffdaa-6d71-48c4-8631-02fa90b796db")
-		(property "Reference" "J8"
-			(at 29.21 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "093f6207-26f7-4bc6-87c3-f0037711044f")
-		)
-		(pin "3"
-			(uuid "2fb1a149-7d48-4128-99cd-4d61a3013191")
-		)
-		(pin "2"
-			(uuid "ea002341-cbe9-44a4-9788-1570dff50437")
-		)
-		(pin "4"
-			(uuid "b156f5b5-4e47-4c1a-b76e-8f3269374f02")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 250.19 99.06 0)
 		(unit 1)
@@ -15205,94 +14940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5408")
-		(at 378.46 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2e11bd9-c13f-464d-a0e4-a0eb55eeb9a6")
-		(property "Reference" "D10"
-			(at 381 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5408"
-			(at 381 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 374.015 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 378.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 378.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 378.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 378.46 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "384e730c-0e21-4c39-994e-c6ed70ec28ad")
-		)
-		(pin "2"
-			(uuid "a4f5e477-216d-4db2-9ae5-aa263dec2dbf")
-		)
-		(instances
-			(project "Dijous_D_Combustible"
-				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_DAC:MCP4725xxx-xCH")
 		(at 351.79 115.57 0)
 		(unit 1)
@@ -15432,6 +15079,76 @@
 			(project ""
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG6030EP")
+		(at 250.19 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c654a832-d4f9-43a9-85bb-08fc9fede713")
+		(property "Reference" "D6"
+			(at 252.73 37.7824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG6030EP"
+			(at 252.73 40.3224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 245.745 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf"
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128"
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f49b4d24-dc58-4792-bb69-336729448cb9")
+		)
+		(pin "2"
+			(uuid "1a4b376b-9da4-4615-a9e6-e66bb7118bc6")
+		)
+		(instances
+			(project "Dijous_D_Combustible"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15726,6 +15443,72 @@
 			(project "Dijous_D_Combustible"
 				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d33d7844-6e82-4999-87b2-98e2663bb411")
+		(property "Reference" "#PWR46"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c79082e-ddca-4ffc-b1c3-6cf61b2e6383")
+		)
+		(instances
+			(project ""
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -16562,6 +16345,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PMEG6030EP")
+		(at 273.05 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1793908-205c-418b-b6ec-44775e437f19")
+		(property "Reference" "D10"
+			(at 275.59 59.3724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMEG6030EP"
+			(at 275.59 61.9124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 268.605 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf"
+			(at 273.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128"
+			(at 273.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2788bb4c-52df-4b01-a162-6d9fcd7cbbcc")
+		)
+		(pin "2"
+			(uuid "f97b745e-0b96-4f83-992e-05ef118582c5")
+		)
+		(instances
+			(project "Dijous_D_Combustible"
+				(path "/8e5e5a45-9171-45b6-b00a-10c0ac4f5428"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 121.92 22.86 90)
 		(unit 1)
@@ -16778,7 +16631,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 22.86 270)
+		(at 109.22 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16787,7 +16640,7 @@
 		(fields_autoplaced yes)
 		(uuid "fee01d77-71bf-4630-82ea-009873c095da")
 		(property "Reference" "R5"
-			(at 102.87 16.51 90)
+			(at 109.22 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,7 +16648,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 102.87 19.05 90)
+			(at 109.22 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16803,7 +16656,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 102.87 21.082 90)
+			(at 109.22 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +16665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 22.86 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,7 +16674,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 22.86 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
