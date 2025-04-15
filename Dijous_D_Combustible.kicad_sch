@@ -5520,12 +5520,12 @@
 		(uuid "8c0eeebe-76cd-4fd2-a925-e726f130c95a")
 	)
 	(no_connect
-		(at 121.92 156.21)
-		(uuid "92f44408-d70c-4db6-bc63-ee9a2204f14c")
+		(at 171.45 147.32)
+		(uuid "8e0d9b14-46aa-4ad1-bcca-faf9154d3d69")
 	)
 	(no_connect
-		(at 262.89 152.4)
-		(uuid "9aca03bf-c7ad-4839-8db2-37e1a588ca3e")
+		(at 121.92 156.21)
+		(uuid "92f44408-d70c-4db6-bc63-ee9a2204f14c")
 	)
 	(no_connect
 		(at 262.89 154.94)
@@ -5887,6 +5887,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 148.59) (xy 265.43 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ab18f1-e7cb-4680-b9a8-f51fe9ae32dc")
+	)
+	(wire
+		(pts
 			(xy 193.04 191.77) (xy 193.04 194.31)
 		)
 		(stroke
@@ -5994,6 +6004,16 @@
 			(type default)
 		)
 		(uuid "2d483dab-a442-437b-89ef-f809ac20489f")
+	)
+	(wire
+		(pts
+			(xy 265.43 148.59) (xy 265.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd0250a-ddd8-46ef-9f36-ead1645de88a")
 	)
 	(wire
 		(pts
@@ -6134,6 +6154,16 @@
 			(type default)
 		)
 		(uuid "436a3157-98d3-4065-8267-bad066cf77ce")
+	)
+	(wire
+		(pts
+			(xy 265.43 152.4) (xy 262.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44782444-009e-4ffc-bce3-3afff9dafb56")
 	)
 	(wire
 		(pts
@@ -7427,16 +7457,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 147.32) (xy 171.45 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6a0d3c-494b-4394-9827-c4a372c11ea3")
-	)
-	(wire
-		(pts
 			(xy 245.11 55.88) (xy 245.11 59.69)
 		)
 		(stroke
@@ -8627,22 +8647,22 @@
 	)
 	(global_label "LED_pneumatics"
 		(shape output)
-		(at 157.48 147.32 180)
+		(at 269.24 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7db5b69d-8abe-489d-a577-c1038d1de3d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.255 147.32 0)
+			(at 287.465 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)

@@ -59,7 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "starved_thermal|175006000|98552000|aeb85f80-4cd7-431f-b3b1-059f13d9b954|84fba0a8-342c-4edc-b7a6-2947494206d7|B.Cu"
+        "starved_thermal|139700000|81716822|bb4278a5-3795-4f4e-bb56-6698d50bef0d|171efe52-3204-477e-8043-34ca68a27bda|F.Cu",
+        "starved_thermal|175006000|98552000|5827994e-06b0-4355-8dd5-13aae86d6fe9|84fba0a8-342c-4edc-b7a6-2947494206d7|B.Cu"
       ],
       "meta": {
         "version": 2
@@ -468,7 +469,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -485,7 +486,7 @@
         "name": "Can+",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -502,7 +503,7 @@
         "name": "Can-",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -579,6 +580,10 @@
       {
         "netclass": "POWER",
         "pattern": "Retorn_dip"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GNDPWR"
       }
     ]
   },
