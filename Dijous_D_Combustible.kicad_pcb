@@ -147,12 +147,12 @@
 	(net 26 "unconnected-(J4-Pad1)")
 	(net 27 "Net-(Q1-B)")
 	(net 28 "Net-(Q2-B)")
-	(net 29 "Net-(U1-Rs)")
+	(net 29 "Net-(U1-S)")
 	(net 30 "SCA")
 	(net 31 "SCL")
 	(net 32 "R_Bomba")
 	(net 33 "R_Dipòsit")
-	(net 34 "unconnected-(U1-Vref-Pad5)")
+	(net 34 "unconnected-(U1-NC-Pad5)")
 	(net 35 "TXD")
 	(net 36 "RXD")
 	(net 37 "unconnected-(U3A-RA5{slash}AN4{slash}*SS{slash}LVDIN-Pad7)")
@@ -263,6 +263,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d7872aa-7f18-4534-b8a9-3f5a7a30db53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fad46d0-00fd-4a23-a09b-b5e34795ea79")
 			(effects
 				(font
 					(size 1 1)
@@ -693,6 +706,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ed7dc06-6e42-4824-ba61-3ceb74349b1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?128*")
 		(path "/f1793908-205c-418b-b6ec-44775e437f19")
 		(sheetname "Raíz")
@@ -1014,6 +1040,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d1052eb-be67-4897-8f13-07c2fc6fdd8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1acf5f52-2c3f-4240-886a-03f04a210900")
 		(sheetname "Raíz")
@@ -1244,6 +1283,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc6fe4f9-52b8-40eb-853c-3094ce4d7e11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c2c5d47-41e3-4c0a-80a9-99817ec5e491")
 			(effects
 				(font
 					(size 1 1)
@@ -2995,6 +3047,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be49f8f6-7db5-49a4-bc4c-88f37970e803")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?201AD*")
 		(path "/00e3d9b5-9800-4d4d-8d6d-b6305478df06")
 		(sheetname "Raíz")
@@ -3390,6 +3455,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "553d6170-3c51-421e-a8f4-5b964d51f4b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/62e5e2d9-a471-4584-afae-95a96701ddb4")
 		(sheetname "Raíz")
@@ -3651,6 +3729,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f151c63b-c053-4218-b968-74aa7888414e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/66cb7dbb-31c2-4806-8211-aead730feaa5")
 		(sheetname "Raíz")
@@ -3903,6 +3994,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c6cc4d4-a75f-42d8-be1f-262573c6497f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a47c9fa-743a-42a7-88dc-fdc482e97c70")
 			(effects
 				(font
 					(size 1 1)
@@ -4345,6 +4449,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "721e37cd-a4b7-4b7c-bd56-036e85252ac6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?323*")
 		(path "/5ce54370-93ae-4f95-ac80-43ed18e9c42c")
 		(sheetname "Raíz")
@@ -4638,6 +4755,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d104e917-6329-4678-aee6-02c93b74d1d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/91526cb5-637b-421d-b374-ddf773fe3cc1")
 		(sheetname "Raíz")
@@ -4857,6 +4987,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fd94ad6-50a9-48d2-97ea-750c5c5ce188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7001f362-e56d-4008-83eb-a8cd6f46ee99")
 			(effects
 				(font
 					(size 1 1)
@@ -5118,6 +5261,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3d68417-8485-4d10-9963-8cff4060e3d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e56504d-65be-4efd-b7de-1578c93c539e")
 			(effects
 				(font
 					(size 1 1)
@@ -5446,6 +5602,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf08a5ab-2e43-4baf-b0c6-682ae54ebb91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f481e05e-6db1-43f6-a90c-3190c6f9facb")
 		(sheetname "Raíz")
@@ -5678,6 +5847,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "343a136f-2c95-4545-a4b3-134d89a6095e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eefa6bf-b27d-4327-a8ed-c5d69f838447")
 			(effects
 				(font
 					(size 1 1)
@@ -5925,6 +6107,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16300769-c512-44fc-87b1-6ded771244bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/77299d55-7cdd-4655-8a4a-a55e24138a22")
 		(sheetname "Raíz")
@@ -6164,6 +6359,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b2665c6-6850-40d5-8c6e-a7e192afcccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6d03deb5-8223-4c8f-a158-ede684022779")
 		(sheetname "Raíz")
@@ -6396,6 +6604,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa6772e1-8094-483c-a296-995ef5b6e3a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90f70d02-ed7f-441f-9bd2-ef0db56cb34c")
 			(effects
 				(font
 					(size 1 1)
@@ -6664,6 +6885,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f84b8b81-e11d-4e29-b0f3-d4f03288aa29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/85649693-bd39-48ad-b76c-c8a9e34f8125")
 		(sheetname "Raíz")
@@ -6903,6 +7137,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f9c59e8-ea72-4260-960a-f128a46b4f61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e3e55f27-06ad-4edb-b937-7b8c683cc41f")
 		(sheetname "Raíz")
@@ -7135,6 +7382,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "102c7207-760b-4529-8bbe-0c12ba909d4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ac55736-f6e8-4ca2-aa12-6b5692c217cc")
 			(effects
 				(font
 					(size 1 1)
@@ -7435,6 +7695,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "839f836c-3c54-4b0b-9a11-3f3168adb894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/070681b9-ceca-4562-ac54-d4b2cdb70fd4")
 		(sheetname "Raíz")
@@ -7622,7 +7895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7667,6 +7940,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed8f413b-c919-4b51-9cf5-e6dc9d366ed1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b6880f-5312-449a-9522-2dd27ad83876")
 			(effects
 				(font
 					(size 1 1)
@@ -7970,6 +8256,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e2ebe95-5212-4df4-a200-2e82019e02fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6498099f-d25a-43fd-8dc3-f4344cd26926")
 			(effects
 				(font
 					(size 1 1)
@@ -8323,6 +8622,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae098919-65ac-4788-8049-4c4a5cc1af57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09cafa7f-fcf3-461e-95fe-a87a30f9ee73")
 			(effects
 				(font
 					(size 1 1)
@@ -8689,7 +9001,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP2551-I-SN"
+		(property "Value" "MCP2557FD-xSN"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "047c76f1-01d8-421d-8fec-da7200312c2c")
@@ -8712,7 +9024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8724,7 +9036,7 @@
 				)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC-8"
+		(property "Description" "CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8736,34 +9048,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3cb41e29-1431-46ca-8d0d-e1aeeca836d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a384e01-b305-415b-827c-eb0e87388d06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/1ce10d52-1d7c-4e19-83d9-9bae5a574cc5")
+		(property ki_fp_filters "SOIC*3.9x4.9*P1.27mm*")
+		(path "/488e6642-a162-4a2d-a3bc-88c1c0719236")
 		(sheetname "Raíz")
 		(sheetfile "Dijous_D_Combustible.kicad_sch")
 		(attr smd)
@@ -8965,9 +9251,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 34 "unconnected-(U1-Vref-Pad5)")
-			(pinfunction "Vref")
-			(pintype "power_out+no_connect")
+			(net 34 "unconnected-(U1-NC-Pad5)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "d876bc87-9988-4f76-934d-b501e4c91d1d")
 		)
 		(pad "6" smd roundrect
@@ -8995,8 +9281,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 29 "Net-(U1-Rs)")
-			(pinfunction "Rs")
+			(net 29 "Net-(U1-S)")
+			(pinfunction "S")
 			(pintype "input")
 			(uuid "0bf032c2-e1ab-4795-8350-35767e981390")
 		)
@@ -9095,6 +9381,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "728d639b-9f4f-466e-b951-9808e39c1146")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9001fdea-16ab-4a6d-a153-563f144ea902")
 			(effects
 				(font
 					(size 1 1)
@@ -9605,6 +9904,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a827709-c170-469c-b189-b4bcf090e12d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e5cbb391-a269-475d-8ce3-6021d49eb866")
 		(sheetname "Raíz")
@@ -9792,7 +10104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611121.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9837,6 +10149,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eca007da-a972-4db8-9e2e-7d8db9311596")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14ee3efb-732a-4c90-a4b9-de666cb486ca")
 			(effects
 				(font
 					(size 1 1)
@@ -10211,11 +10536,24 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "455a1508-f26c-4645-a335-9d56f36cf185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/ae78b9b5-73ed-41ce-8938-e0ada3a11120")
 		(sheetname "Raíz")
 		(sheetfile "Dijous_D_Combustible.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 6.45 -2.65)
 			(end 6.45 3.4)
@@ -10560,6 +10898,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33fe4504-6afc-4f1a-ae84-271fb76b98af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8b648bce-5bfe-47a5-bf4a-74481d48953b")
 		(sheetname "Raíz")
@@ -10792,6 +11143,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b4c0f68-1157-474f-829f-69036d634252")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53daac11-920f-4691-9fe9-cdd5f5e4c47b")
 			(effects
 				(font
 					(size 1 1)
@@ -11083,6 +11447,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa5a7570-38a7-46e7-baa8-37c49b01017f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "062013cf-da74-476b-930c-c590c1bd0bef")
 			(effects
 				(font
 					(size 1 1)
@@ -11482,6 +11859,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04a69a5e-e663-4e00-9935-5a4da77ba4a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/98ffa6a4-b752-4007-bd2c-a369a3217945")
 		(sheetname "Raíz")
@@ -11721,6 +12111,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d070016a-d39f-455c-94f7-4ddc18baeff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9a0dad2e-6120-4d2a-a86b-a7c0af1ef4d2")
 		(sheetname "Raíz")
@@ -11930,7 +12333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11975,6 +12378,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aebcc6af-4a23-4243-a5d1-e04519499d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd68a2f-d508-4fae-9fcb-a74860d708ec")
 			(effects
 				(font
 					(size 1 1)
@@ -12285,6 +12701,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e192596a-1ef6-4a6f-9c28-d00e3e119bca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/b940385c-b1cb-4c8e-9ad9-0d405e9f35f9")
 		(sheetname "Raíz")
@@ -12569,6 +12998,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b63c76a-d296-4b74-b34a-539f8436be25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bceaddb-3f40-4251-b507-cf2f4e297957")
 			(effects
 				(font
 					(size 1 1)
@@ -13046,6 +13488,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d854b26-bf63-43b7-8bae-055eecb57a57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/1a484024-8f59-462f-93b7-f3c620030f61")
 		(sheetname "Raíz")
@@ -13235,7 +13690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13280,6 +13735,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8efc0465-fc68-42a5-ad8d-a409c0893aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9fd578f-269e-4ec7-966b-2190ece8d0bc")
 			(effects
 				(font
 					(size 1 1)
@@ -13590,6 +14058,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc2c8bb7-cb79-49fb-a2a1-c3f7e3047296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a95672e2-e96a-4b34-a0d2-acb6a7d284de")
 		(sheetname "Raíz")
@@ -13822,6 +14303,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64eaeb31-47cc-4932-a79a-4af51f16c01e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d70a506d-cd54-4ee1-a2f7-a50b9c5fc3bb")
 			(effects
 				(font
 					(size 1 1)
@@ -14299,6 +14793,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36856335-3728-4bed-baf3-0ea01496fae4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/56852536-92c6-4092-af4f-902d61770994")
 		(sheetname "Raíz")
@@ -14486,7 +14993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14531,6 +15038,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdd51a89-cb13-43d1-a118-7539a27b4c72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d16ae3-eec0-475c-9440-c7604839bdbc")
 			(effects
 				(font
 					(size 1 1)
@@ -14789,7 +15309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61200621621.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14834,6 +15354,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb73ed46-1147-4800-9997-ddc1e882afd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afc29aa7-9cd1-4faa-a139-0099d9b73cca")
 			(effects
 				(font
 					(size 1 1)
@@ -15228,6 +15761,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a690ebba-11d7-48f0-936c-d9713a3a87c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1a31d664-1866-4d2d-8cbb-c09f46279662")
 		(sheetname "Raíz")
@@ -15581,6 +16127,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa5c94b-ab98-45ec-a07d-9acab6f4c85b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Relay*Fujitsu*FTR?LYA*")
 		(path "/e771ad77-295e-46b4-a6f1-619c1b9161cf")
 		(sheetname "Raíz")
@@ -15920,7 +16479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/198661/dxxx-pt-1-data-sheet.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15963,6 +16522,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c9d43be-722c-4c05-b8d7-d84b43362412")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4002ee4c-9797-43d7-85c1-07b1f7dfc98b")
 			(effects
 				(font
 					(size 1 1)
@@ -16638,6 +17210,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5edd4b30-b45c-4955-baa0-6e1aa511c87c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c3ddfa35-52c2-4fc7-9a07-7d849cf40b2d")
 		(sheetname "Raíz")
@@ -16954,6 +17539,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c30875d-bdde-42a0-9095-4ac599e8d129")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b932d3b5-5ea6-418b-92d9-1d49718d3c67")
 			(effects
 				(font
 					(size 1 1)
@@ -17318,6 +17916,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b953e42-ae8a-48e8-be9a-f63a65873f6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3562772e-4f89-4f37-b53c-8ef7b6851e70")
 		(sheetname "Raíz")
@@ -17557,6 +18168,19 @@
 				)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad68b1d-5a34-4490-a18e-a2ab13b79b2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8d398a27-b91a-4105-9303-046e2ffad28c")
 		(sheetname "Raíz")
@@ -17764,7 +18388,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691137710002.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17809,6 +18433,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "661da913-31ec-482c-884c-77e7021634d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b60acc8d-d134-4b59-b455-da8b1dedaeaf")
 			(effects
 				(font
 					(size 1 1)
@@ -18944,6 +19581,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87a47b34-24f7-4a4e-924c-a34c28167f6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d233f438-c504-47bc-8b8b-f7e5599c2448")
 		(sheetname "Raíz")
@@ -19191,6 +19842,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04bef8da-a296-4fff-9ebb-c0948abd64c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ca1c7386-7816-4ee6-906a-c7ba8f602b17")
 		(sheetname "Raíz")
@@ -19313,7 +19978,7 @@
 			(size 1.125 1.75)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.222222)
-			(net 29 "Net-(U1-Rs)")
+			(net 29 "Net-(U1-S)")
 			(pintype "passive")
 			(uuid "d388e01d-9f0a-4641-af9d-0f954590bb02")
 		)
@@ -19430,6 +20095,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70964163-8372-4d5a-a0dc-1fbccd19ebd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "549f2f97-5887-4566-83c7-16132bdb8b22")
 			(effects
 				(font
 					(size 1 1)
@@ -19685,6 +20364,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25e34348-63c2-4d30-afb0-994ca46f2430")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/220c99dd-28c7-40fe-88f2-f2e38d77cd67")
 		(sheetname "Raíz")
@@ -19924,6 +20617,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1d2f42b7-5834-4948-b404-b21505143cec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec8ca44c-48b5-4b93-a55d-2e52c275d9af")
 			(effects
 				(font
 					(size 1 1)
@@ -20179,6 +20886,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3be94141-7cc6-4668-a58a-5c233807e61f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fee01d77-71bf-4630-82ea-009873c095da")
 		(sheetname "Raíz")
@@ -20418,6 +21139,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "54541254-c925-423d-b54d-b3d7ecddd976")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f32f257a-92e1-4677-bbae-2f282671a7ee")
 			(effects
 				(font
 					(size 1 1)
@@ -20673,6 +21408,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57c64510-5707-4b59-8545-c6063356c60d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/231ce915-33c1-4f21-8470-6ed9122fae7d")
 		(sheetname "Raíz")
@@ -20912,6 +21661,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "601c1a7e-6b9f-494b-bb3f-103c73bfbdf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Campo7" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57328e1a-ecbd-4613-9417-17f14bf1706e")
 			(effects
 				(font
 					(size 1 1)
