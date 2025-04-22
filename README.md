@@ -62,4 +62,4 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | 2025-04-09 | Raúl Carod | `main`| Correcció d'errors en el layout |
 | 2025-04-09 | Raúl Carod | `main`| Correccions del Layout i cambis en l'esquemàtic |
 | 2025-04-19 | Raúl Carod | `main`| Layout final |
-| 2025-04-19 | Raúl Carod | `main`| Correcciona de layout final |
+| 2025-04-19 | Raúl Carod | `main`| Correccionament de layout final |
