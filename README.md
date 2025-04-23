@@ -28,17 +28,20 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Convertidor DAC            | MCP4725           | SOT-23-6 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf) | DigiKey / Mouser | 1 |
 | Transistor de control | 2SC4213 | SMD:SOT-323 | [Enllaç](https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213) | Mouser | 2 |
 | Relé | Fujitsu_FTR-LYAA005x | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Mouse | 2 |
-| Díode protector | 1N5408 | DO-201AD | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Mouser | 4 |
+| Díode protector | PMEG6030EP | Diode_SMD:D_SOD-128 | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Mouser | 4 |
 | Díode Zener | 1N5822 | DO-201AD | [Enllaç](http://www.vishay.com/docs/88526/1n5820.pdf) | Farnell España | 1 |
-| Díode de protecció en inversa | MBR3PMEG6030EP40 | Diode_SMD:D_SOD-128 | [Enllaç](https://assets.nexperia.com/documents/data-sheet/PMEG6030EP-Q.pdf) | Mouser | 1 |
 | LED Blau | 150080BS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080BS75000.pdf)| Digikey | 2 |
 | LED Verd | 150080GS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080GS75000.pdf)| Digikey | 1 |
 | LED Blau | 150080SS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080SS75000.pdf)| Digikey | 1 |
-| Connector Barteia | 691137710002 | TERM BLK 2POS SIDE ENTRY 5MM PCB | [Enllaç](https://www.we-online.com/components/products/datasheet/691137710002.pdf) | 1 |
-| Connector 01x02 | 61300211121 | PinHeader_1x02_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61300211121.pdf) | 4 |
-| Connector ISCP | 61200621621 | CONN HEADER VERT 6POS 2.54MM | [Enllaç](https://www.we-online.com/components/products/datasheet/61200621621.pdf) | 1 |
-| 
-
+| Connector Bateria | 691137710002 | TERM BLK 2POS SIDE ENTRY 5MM PCB | [Enllaç](https://www.we-online.com/components/products/datasheet/691137710002.pdf) | Digikey | 1 |
+| Connector 01x02 | 61300211121 | PinHeader_1x02_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61300211121.pdf) |Digikey | 4 |
+| Connector ISCP | 61200621621 | PinHeader_2x03_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61200621621.pdf) | Digikey | 1 |
+| Connector Usart | 61300611121 | PinHeader_1x06_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61300611121.pdf) | Digikey | 1 |
+| Connector 01x03 | G800LR305018EU | FanPinHeader_1x03_P2.54mm_Vertical | [Enllaç]() |Mouser | 1 |
+| Jumper | 60900213421 | JUMPER W/TEST PNT 1X2PINS 2.54MM | [Enllaç](https://www.we-online.com/components/products/datasheet/60900213421.pdf) | Digikey | 1 |
+| Pulsador reset | SKRKAEE020 | SW_Push_SPST_NO_Alps_SKRK | [Enllaç](https://www.mouser.es/datasheet/2/15/SKRK-1370789.pdf) | Mouser | 1 |
+| Connector DB9 | DE09-PT-1 | DSUB-9_Male_Vertical_P2.77x2.84mm | [Enllaç](https://app.adam-tech.com/products/download/data_sheet/198661/dxxx-pt-1-data-sheet.pdf) | Digikey | 1 |
+| Díode de protecció de connexió | PMEG040V050EPD | CFP15_SOT-1289 | [Enllaç](https://assets.nexperia.com/documents/data-sheet/PMEG040V050EPD.pdf) | Digikey | 1 |
 
 
 
