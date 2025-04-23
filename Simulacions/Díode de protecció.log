@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Raul Carod\Desktop\Practicas_disseny\Dijous_D_Combustible\Simulacions\Díode de protecció.asc
+Start Time: Thu Apr  3 10:15:50 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.594 seconds.
+
