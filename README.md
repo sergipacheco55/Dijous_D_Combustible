@@ -20,17 +20,25 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 ## Taula de components
 | Descripció                 | Manufacturer Number | Package  | Datasheet | Proveïdor | Unitats |
 |----------------------------|--------------------|---------|----------|----------|---------|
-| Regulador de tensió        | LM1117            | SOT-223 | [Enllaç](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | DigiKey / Mouser | 1 |
-| Regulador de commutació    | LM2596            | TO-220 / TO-263 | [Enllaç](https://www.ti.com/lit/ds/symlink/lm2596.pdf) | DigiKey / Mouser | 1 |
-| Transceptor CAN            | MCP2557           | SOIC-8  | [Enllaç](https://www.digikey.es/es/products/detail/microchip-technology/MCP2557FD-H-SN/6009299?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax_Product_All%20Products&utm_term=&productid=6009299&utm_content=&utm_id=go_cmp-20199915072_adg-_ad-__dev-c_ext-_prd-6009299_sig-Cj0KCQjw_JzABhC2ARIsAPe3ynpUKI6YB1CwYhuxLEUHioMMJoSxuswcCzv73NbuUfjEhpO7h3KmzM0aAg-ZEALw_wcB&gad_source=1&gbraid=0AAAAADrbLli4DwHuL2SABBDwoZRf1ZzGQ&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynpUKI6YB1CwYhuxLEUHioMMJoSxuswcCzv73NbuUfjEhpO7h3KmzM0aAg-ZEALw_wcB&gclsrc=aw.ds) | DigiKey / Mouser | 1 |
+| Regulador de tensió        | LM1117            | SOT-223 | [Enllaç](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | Mouser | 1 |
+| Regulador de commutació    | LM2596            | TO-220 / TO-263 | [Enllaç](https://www.ti.com/lit/ds/symlink/lm2596.pdf) |Mouser | 1 |
+| Transceptor CAN            | MCP2557           | SOIC-8  | [Enllaç](https://www.digikey.es/es/products/detail/microchip-technology/MCP2557FD-H-SN/6009299?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax_Product_All%20Products&utm_term=&productid=6009299&utm_content=&utm_id=go_cmp-20199915072_adg-_ad-__dev-c_ext-_prd-6009299_sig-Cj0KCQjw_JzABhC2ARIsAPe3ynpUKI6YB1CwYhuxLEUHioMMJoSxuswcCzv73NbuUfjEhpO7h3KmzM0aAg-ZEALw_wcB&gad_source=1&gbraid=0AAAAADrbLli4DwHuL2SABBDwoZRf1ZzGQ&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynpUKI6YB1CwYhuxLEUHioMMJoSxuswcCzv73NbuUfjEhpO7h3KmzM0aAg-ZEALw_wcB&gclsrc=aw.ds) | DigiKey | 1 |
 | Microcontrolador           | PIC18F258         | SOIC 28 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/39564c.pdf) | DigiKey / Mouser | 1 |
-| Cristall de quars          | abls-4.000mhz-b2-t | HC-49-SD | [Enllaç](https://www.mouser.es/ProductDetail/ABRACON/ABLS-4000MHZ-B2-T?qs=D0XpjEo%2FJ5C3RozMqbjMZQ%3D%3D&mgh=1&vip=1&utm_id=19103542967&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gbraid=0AAAAADn_wf3OXCEtXcIA5_5RcBvoSepTR&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynqsKUWHLoPzyu7DV4PfzRyfIg9Ooyksv1cDZuEIGajdSMNtnR05LqEaAmMCEALw_wcB) | DigiKey / Mouser | 1 |
+| Cristall de quars          | abls-4.000mhz-b2-t | HC-49-SD | [Enllaç](https://www.mouser.es/ProductDetail/ABRACON/ABLS-4000MHZ-B2-T?qs=D0XpjEo%2FJ5C3RozMqbjMZQ%3D%3D&mgh=1&vip=1&utm_id=19103542967&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gbraid=0AAAAADn_wf3OXCEtXcIA5_5RcBvoSepTR&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynqsKUWHLoPzyu7DV4PfzRyfIg9Ooyksv1cDZuEIGajdSMNtnR05LqEaAmMCEALw_wcB) | Mouser | 1 |
 | Convertidor DAC            | MCP4725           | SOT-23-6 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf) | DigiKey / Mouser | 1 |
 | Transistor de control | 2SC4213 | SMD:SOT-323 | [Enllaç](https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213) | Mouser | 2 |
 | Relé | Fujitsu_FTR-LYAA005x | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Mouse | 2 |
 | Díode protector | 1N5408 | DO-201AD | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Mouser | 4 |
 | Díode Zener | 1N5822 | DO-201AD | [Enllaç](http://www.vishay.com/docs/88526/1n5820.pdf) | Farnell España | 1 |
-| Díode de protecció en inversa | MBR340 | DO-201AD_P15.24mm | [Enllaç](http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF) | Mouser | 1 |
+| Díode de protecció en inversa | MBR3PMEG6030EP40 | Diode_SMD:D_SOD-128 | [Enllaç](https://assets.nexperia.com/documents/data-sheet/PMEG6030EP-Q.pdf) | Mouser | 1 |
+| LED Blau | 150080BS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080BS75000.pdf)| Digikey | 2 |
+| LED Verd | 150080GS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080GS75000.pdf)| Digikey | 1 |
+| LED Blau | 150080SS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080SS75000.pdf)| Digikey | 1 |
+| Connector Barteia | 691137710002 | TERM BLK 2POS SIDE ENTRY 5MM PCB | [Enllaç](https://www.we-online.com/components/products/datasheet/691137710002.pdf) | 1 |
+| Connector 01x02 | 61300211121 | PinHeader_1x02_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61300211121.pdf) | 4 |
+| Connector ISCP | 61200621621 | CONN HEADER VERT 6POS 2.54MM | [Enllaç](https://www.we-online.com/components/products/datasheet/61200621621.pdf) | 1 |
+| 
+
 
 
 
