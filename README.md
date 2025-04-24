@@ -11,8 +11,11 @@ View this project on [CADLAB.io](https://cadlab.io/project/29049).
 ## Objectiu Descripció breu de l'objectiu del projecte.
 L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de tancament de dipòsit del combustible d'un cotxe, controli el sensor de pressió de pneumàtics i el sensor digital de nivell de combustible i el funcionament de la bomba de combustible.
 ## Requisits i especificacions
-- 
-- 
+- Una etapa regulador de tensió per alimentar tots el components de la placa.
+- Tenir un microcontrolador encarregat del control de la nostra placa.
+- Tenir una connexió BUS CAN, I2C.
+- Una comuniació USART per connectar el microcontrolador a aparells extern ja ve sigui un ordinador.
+- Tenir entrades com un boto per a que s'interección amb la placa.
 
 ## Diagrama de blocs
 ![Diagrama de bloques](Diagrama%20de%20bloques%20final.png)
@@ -27,7 +30,7 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Cristall de quars          | abls-4.000mhz-b2-t | HC-49-SD | [Enllaç](https://www.mouser.es/ProductDetail/ABRACON/ABLS-4000MHZ-B2-T?qs=D0XpjEo%2FJ5C3RozMqbjMZQ%3D%3D&mgh=1&vip=1&utm_id=19103542967&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gbraid=0AAAAADn_wf3OXCEtXcIA5_5RcBvoSepTR&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynqsKUWHLoPzyu7DV4PfzRyfIg9Ooyksv1cDZuEIGajdSMNtnR05LqEaAmMCEALw_wcB) | Mouser | 1 |
 | Convertidor DAC            | MCP4725           | SOT-23-6 | [Enllaç](https://ww1.microchip.com/downloads/en/devicedoc/22039d.pdf) | DigiKey / Mouser | 1 |
 | Transistor de control | 2SC4213 | SMD:SOT-323 | [Enllaç](https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213) | Mouser | 2 |
-| Relé | Fujitsu_FTR-LYAA005x | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Mouse | 2 |
+| Relé | Fujitsu_FTR-LYAA005Y | SPST-Vertical | [Enllaç](https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf) | Mouse | 2 |
 | Díode protector | PMEG6030EP | Diode_SMD:D_SOD-128 | [Enllaç](https://www.vishay.com/docs/88516/1n5400.pdf) | Mouser | 4 |
 | Díode Zener | 1N5822 | DO-201AD | [Enllaç](http://www.vishay.com/docs/88526/1n5820.pdf) | Farnell España | 1 |
 | LED Blau | 150080BS75000 | 0805_2012 | [Enllaç](https://www.we-online.com/components/products/datasheet/150080BS75000.pdf)| Digikey | 2 |
@@ -37,7 +40,7 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | Connector 01x02 | 61300211121 | PinHeader_1x02_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61300211121.pdf) |Digikey | 4 |
 | Connector ISCP | 61200621621 | PinHeader_2x03_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61200621621.pdf) | Digikey | 1 |
 | Connector Usart | 61300611121 | PinHeader_1x06_P2.54mm_Vertical | [Enllaç](https://www.we-online.com/components/products/datasheet/61300611121.pdf) | Digikey | 1 |
-| Connector 01x03 | G800LR305018EU | FanPinHeader_1x03_P2.54mm_Vertical | [Enllaç]() |Mouser | 1 |
+| Connector 01x03 | G800LR305018EU | FanPinHeader_1x03_P2.54mm_Vertical | [Enllaç](https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/g800lrxxxxxxeu_1.pdf) |Mouser | 1 |
 | Jumper | 60900213421 | JUMPER W/TEST PNT 1X2PINS 2.54MM | [Enllaç](https://www.we-online.com/components/products/datasheet/60900213421.pdf) | Digikey | 1 |
 | Pulsador reset | SKRKAEE020 | SW_Push_SPST_NO_Alps_SKRK | [Enllaç](https://www.mouser.es/datasheet/2/15/SKRK-1370789.pdf) | Mouser | 1 |
 | Connector DB9 | DE09-PT-1 | DSUB-9_Male_Vertical_P2.77x2.84mm | [Enllaç](https://app.adam-tech.com/products/download/data_sheet/198661/dxxx-pt-1-data-sheet.pdf) | Digikey | 1 |
@@ -46,9 +49,10 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 
 
 ## Funcionalitats
-- [ ] Funció 1
-- [ ] Funció 2
-- [ ] Funció 3
+- El mecanisme de tancament i obertura del dipòsit de combustible
+- Un sensor digital del nivell de combustible
+- El mecanisme que controli la bomba de combustible
+- Un sensor que ens avisi quan la pressió dels pneumàtics sigui baixa
 
 ## Historial de canvis
 | Data | Autor | Branch | Descripció |
@@ -74,3 +78,5 @@ L'objectiu del projecte és crear una pcb capaç de controlar el mecanisme de ta
 | 2025-04-09 | Raúl Carod | `main`| Correccions del Layout i cambis en l'esquemàtic |
 | 2025-04-19 | Raúl Carod | `main`| Layout final |
 | 2025-04-19 | Raúl Carod | `main`| Correccionament de layout final |
+| 2025-04-24 | Raúl Carod | `main`| Versió final del README |
+
